@@ -1,0 +1,82 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #d1fff7;
+}
+
+  /* navbar */
+  
+  .nav-color {
+    background-color: #1f8473;
+  }
+  
+  .navbar {
+    z-index: 3;
+  }
+  
+  .nav-link {
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .nav-link:hover {
+    color: #bafbf0;
+  }
+  
+  .nav-link.active {
+    font-weight: 700;
+  }
+
+  .breadcrumb{
+    padding: 0 15px;
+  }
+  
+/* nilai */
+
+#nilai {
+  padding: 80px 0;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 42px;
+  color: #1f8473;
+}
+
+
+.informasi{
+  padding: 20px 0;
+}
+
+.informasi h5{
+  font-weight: 600;
+  font-size: 20px;
+  color: #000;
+}
+.informasi h6 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+}
+
+/* tabel */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
+  border-radius: 10px;
+}
+
+/* button */
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #1f8473;
+}
+
+
+/* Hilang HREF */
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}

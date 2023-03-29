@@ -1,0 +1,324 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #d1fff7;
+  }
+  
+  /* navbar */
+  
+  .nav-color {
+    background-color: #1f8473;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .bg-transparent {
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .navbar {
+    z-index: 3;
+  }
+  
+  .nav-link {
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .nav-link:hover {
+    color: #bafbf0;
+  }
+  
+  .nav-link.active {
+    font-weight: 700;
+  }
+  
+  .button-primary {
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .button-secondary {
+    width: 133px;
+    height: 40px;
+    background-color: #fff;
+    color: #1f8473;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+  }
+
+  .button-secondary:hover {
+    width: 133px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(160deg, #23c7ac, #155c50);
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease-in;
+  }
+  
+  /* hero */
+  
+  #home {
+    background: linear-gradient(160deg, #23c7ac, #1f8473);
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .img-hero {
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .hero-tagline h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 46px;
+    margin-bottom: 35px;
+  }
+  .hero-tagline h2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 36px;
+  }
+  
+  .hero-tagline p {
+    font-weight: 500;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 50px;
+    line-height: 30px;
+    width: 500px;
+  }
+  
+  .button-lg-primary {
+    width: 237px;
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1f8473;
+    background-color: #fff;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease-in;
+  }
+  .button-lg-primary:hover {
+    width: 237px;
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(160deg, #23c7ac, #155c50);
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease-in;
+  }
+  
+  /* siapa kamu */
+  
+  #fitur {
+    padding: 100px 0;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .judul_semester{
+    padding-bottom: 30px;
+  }
+  
+  h2 {
+    font-weight: 600;
+    font-size: 48px;
+    color: #1f8473;
+  }
+  
+  .sub-title {
+    font-size: 16px;
+    color: #000;
+  }
+  
+  .card-pilihan {
+    padding: 80px 0;
+  }
+  
+  /* before hover */
+  .card-pelajar {
+    width: 100%;
+    height: 313px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    color: #1f8473;
+    transition: all 0.2s ease-in;
+  }
+  .card-pelajar h4 {
+    padding: 5px;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .card-pelajar img {
+    padding: 5px;
+  }
+  .card-cc {
+    width: 100%;
+    height: 313px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    color: #1f8473;
+    transition: all 0.2s ease-in;
+  }
+  .card-cc h4 {
+    padding: 5px;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .card-cc img {
+    padding: 5px;
+  }
+  
+  /* hover */
+  .card-pelajar:hover {
+    width: 100%;
+    height: 313px;
+    border-radius: 10px;
+    background: linear-gradient(160deg, #23c7ac, #1f8473);
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    color: #fff;
+    transition: all 0.2s ease-in;
+  }
+  .card-cc:hover {
+    width: 100%;
+    height: 313px;
+    border-radius: 10px;
+    background: linear-gradient(160deg, #23c7ac, #1f8473);
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    color: #fff;
+    transition: all 0.2s ease-in;
+  }
+  
+  /* video */
+  .video_main {
+    padding: 50px 0;
+  }
+  
+  /* footer */
+  #footer {
+    background-color: #1f8473;
+    padding: 60px;
+    color: #fff;
+  }
+  .bottom {
+    font-size: 12px;
+  }
+  
+  /* disable href */
+  a,
+  a:hover,
+  a:focus,
+  a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .popup{
+    width: 400px;
+    background: #fff;
+    border-radius: 20px;
+    position: absolute;
+    top: -50%;
+    left: 36%;
+    transform: translate (-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #000;
+    box-shadow: 0 7px 7px rgba(0,0,0,0.1);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+  }
+  
+  .open-popup{
+    visibility: visible;
+    top: 490%;
+    transform: translate (-50%, -50%) scale(1); 
+  }
+  
+  .popup img{
+    width: 100px;
+    margin-top: -50px;
+  }
+  
+  .popup h5{
+    font-weight: 600;
+    font-size: 32px;
+    color: #1f8473;
+    margin: 30px 0 10px;
+  }
+  
+  .popup .tombol_yakin{
+    border: 2px solid #1f8473;
+    background-color: transparent;
+    color: #1f8473;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+    margin-top:50px;
+    padding: 10px 0;
+    cursor: pointer;
+    width: 40%;
+  }
+  
+  .popup .tombol_yakin:hover{
+    border: 2px solid #E71D21;
+    background-color: #E71D21;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+    margin-top:50px;
+    padding: 10px 0;
+    cursor: pointer;
+    width: 40%;
+  }
+  
+  .popup .tombol_tidakyakin{
+    border: 2px solid #1f8473;
+    background-color: transparent;
+    color: #1f8473;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+    margin-top:50px;
+    padding: 10px 0;
+    cursor: pointer;
+    width: 40%;
+  }
+  
+  .popup .tombol_tidakyakin:hover{
+    border: 2px solid #1f8473;
+    background-color: #1f8473;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+    margin-top:50px;
+    padding: 10px 0;
+    cursor: pointer;
+    width: 40%;
+  }
+  
